@@ -2,7 +2,10 @@
   "name": "component-test",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test-working": "nx run-many -t component-test --skip-nx-cache --parallel=false",
+    "test-not-working": "nx run-many -t component-test --skip-nx-cache"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.2.0",
